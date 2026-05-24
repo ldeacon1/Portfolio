@@ -35,11 +35,9 @@
     --line-height-small: 1.2;
 
     --black: #000;
-    --pink: #ff3258;
-    --blue: #7DF9FF;
+    --pink: #7DF9FF;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
-
 
     --container-max-width: 1180px;
     --container-normal-width: 800px;
@@ -151,7 +149,7 @@ h2::after {
     display: block;
     height: 2px;
     width: 10rem;
-    background: var(--blue);
+    background: var(--pink);
     margin: var(--gutter-small) 0;
 }
 
@@ -202,7 +200,7 @@ a {
 
 button:focus,
 a:focus {
-    outline: 2px solid var(--blue);
+    outline: 2px solid var(--pink);
 }
 
 body:not(.user-is-tabbing) button:focus,
@@ -211,7 +209,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .link:hover {
-    color: var(--blue);
+    color: var(--pink);
 }
 
 .btn {
@@ -220,7 +218,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: 1rem 4.2rem;
     text-decoration: none;
     color: inherit;
-    border: 1px solid  var(--blue);
+    border: 1px solid  var(--pink);
     font-weight: 400;
 }
 
@@ -244,11 +242,11 @@ body:not(.user-is-tabbing) a:focus {
 .btn:hover::after,
 .btn:focus::after {
     right: 0;
-    background: var(--blue);
+    background: var(--pink);
 }
 
 .btn--pink {
-    background: var(--blue);
+    background: var(--pink);
     transition: all 0.2s;
 }
 
@@ -267,7 +265,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: .6rem;
     color: inherit;
     text-decoration: none;
-    border-bottom: 1px solid var(--blue);
+    border-bottom: 1px solid var(--pink);
 }
 
 .link__text::after {
@@ -290,7 +288,7 @@ body:not(.user-is-tabbing) a:focus {
 .link__text:hover::after,
 .link__text:focus:after {
     right: 0;
-    background: var(--blue);
+    background: var(--pink);
 }
 
 .link__text span {
@@ -309,7 +307,7 @@ body:not(.user-is-tabbing) a:focus {
     align-items: center;
     height: 5.5rem;
     width: 5.5rem;
-    background-color: var(--blue);
+    background-color: var(--pink);
     border-radius: 50%;
     z-index: 10;
     visibility: hidden;
@@ -391,13 +389,13 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .nav__link:hover {
-    color: var(--blue);
+    color: var(--pink);
 }
 
 .nav__link:hover::after {
     right: 0;
     height: 2px;
-    background: var(--blue);
+    background: var(--pink);
 }
 
 /* --------------------------------------- */
