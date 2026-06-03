@@ -474,6 +474,10 @@ body:not(.user-is-tabbing) a:focus {
     align-items: center;
 }
 
+.work__links:not(:last-child) {
+    margin-bottom: 5rem;
+}
+
 .work__text {
     flex: 0 0 30%;
 }
