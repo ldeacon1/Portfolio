@@ -463,6 +463,12 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
+.project__links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 .work__links {
     display: flex;
     align-items: center;
