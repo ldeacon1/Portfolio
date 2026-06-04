@@ -475,7 +475,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__links:not(:last-child) {
-   
+    gap: 3rem;
 }
 
 .work__text {
